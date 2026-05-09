@@ -113,12 +113,7 @@ Hybrid (Proposed)	0.90	0.86	0.88	18
 Temporal ROI Optimization
 ```
 
-The system reduces computation using temporal Region of Interest (ROI) tracking.
-
-Instead of scanning the entire frame repeatedly:
-
-Detection is restricted around the previously detected face region.
-Full-frame detection is used only when tracking fails.
+The system reduces computation using temporal Region of Interest (ROI) tracking. Instead of scanning the entire frame repeatedly, Ddtection is restricted around the previously detected face region. Full-frame detection is used only when tracking fails.
 
 This significantly improves FPS on embedded hardware.
 
