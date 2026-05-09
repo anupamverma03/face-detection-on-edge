@@ -76,9 +76,8 @@ SSD Face Detector
 ResNet-10 based SSD model using OpenCV DNN module.
 
 Model files:
-
-deploy.prototxt
 ```text
+deploy.prototxt
 res10_300x300_ssd_iter_140000.caffemodel
 Running Real-Time Detection
 python hybrid_detection.py
@@ -130,9 +129,9 @@ Multi-face tracking
 Hardware accelerator support
 TensorFlow Lite optimization
 ## References
-Viola, P., and Jones, M., “Rapid Object Detection using a Boosted Cascade of Simple Features,” CVPR, 2001.
-Liu, W. et al., “SSD: Single Shot MultiBox Detector,” ECCV, 2016.
-He, K. et al., “Deep Residual Learning for Image Recognition,” CVPR, 2016.
+1. Viola, P., and Jones, M., “Rapid Object Detection using a Boosted Cascade of Simple Features,” CVPR, 2001.
+2. Liu, W. et al., “SSD: Single Shot MultiBox Detector,” ECCV, 2016.
+3. He, K. et al., “Deep Residual Learning for Image Recognition,” CVPR, 2016.
 
 ## Author
 
